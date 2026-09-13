@@ -3,7 +3,7 @@
 <p align="center"><strong>Master's Student @ UCAS</strong></p>
 
 <p align="center">
-  <a href="https://xiangshang2004.github.io/"><img src="assets/icons/website-badge.svg" alt="Personal Website" title="Personal Website"></a>
+  <a href="https://xiangshang2004.github.io/xiangshang2004/"><img src="assets/icons/website-badge.svg" alt="Personal Website" title="Personal Website"></a>
   <a href="https://scholar.google.com/citations?user=cIRPqicAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&amp;logo=googlescholar&amp;logoColor=white" alt="Google Scholar"></a>
   <a href="https://github.com/xiangshang2004"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
   <a href="https://orcid.org/0009-0005-7045-8505"><img src="https://img.shields.io/badge/ORCID-8CA72B?style=flat-square&amp;logo=orcid&amp;logoColor=white" alt="ORCID"></a>

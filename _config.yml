@@ -8,8 +8,8 @@ timezone: "Asia/Shanghai"
 description: "向上的个人主页：中国科学院大学硕士研究生，研究兴趣为 AI for Science。"
 keywords: "向上, 中国科学院大学, UCAS, AI for Science"
 url: "https://xiangshang2004.github.io"
-baseurl: ""
-canonical: "https://xiangshang2004.github.io/"
+baseurl: "/xiangshang2004"
+canonical: "https://xiangshang2004.github.io/xiangshang2004/"
 github_link: "https://github.com/xiangshang2004"
 orcid_link: "https://orcid.org/0009-0005-7045-8505"
 scholar_link: "https://scholar.google.com/citations?user=cIRPqicAAAAJ"
@@ -31,7 +31,6 @@ exclude:
   - .omx
   - openspec
   - docs
-  - deployment
   - .private
   - html_source_file
   - minimal-light.gemspec
