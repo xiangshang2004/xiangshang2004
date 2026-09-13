@@ -4,7 +4,7 @@
 
 统一内容仓库：<https://github.com/xiangshang2004/xiangshang2004>，公开维护 GitHub 个人资料 README 和网站源码。旧 `2084413277.github.io` 远端仓库已删除，后续内容更新均在本仓库进行。
 
-根地址发布方案已确认：使用 `xiangshang2004/xiangshang2004.github.io` 作为发布专用仓库，通过 GitHub Actions 从内容仓库构建和部署，目标网站为 <https://xiangshang2004.github.io/>，英文版为 `/en/`。根地址作为唯一网站入口；旧项目路径已经停用。
+根地址发布方案已确认：使用 `xiangshang2004/xiangshang2004.github.io` 作为发布专用仓库，发布内容仓库构建出的静态文件，目标网站为 <https://xiangshang2004.github.io/>，英文版为 `/en/`。根地址作为唯一网站入口；旧项目路径已经停用。
 
 | 内容 | 文件 |
 | --- | --- |
