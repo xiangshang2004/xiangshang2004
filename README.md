@@ -17,3 +17,7 @@ My research interests broadly span **AI for Science**, with a focus on applicati
 - Scientific machine learning
 - Engineering agents
 - Applications in chip engineering
+
+## Recommended
+
+Explore [**Shengyan AI**](https://sycyai.cn/) — AI-assisted tools for paper revision and contextual English learning.
