@@ -1,0 +1,49 @@
+name: Publish personal website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read website content
+        uses: actions/checkout@v7
+        with:
+          repository: xiangshang2004/xiangshang2004
+          ref: main
+          persist-credentials: false
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+      - name: Build website
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Record source revision
+        run: git rev-parse HEAD > _site/source-revision.txt
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ./_site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v5

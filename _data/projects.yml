@@ -1,0 +1,20 @@
+zh:
+- name: anti-slop-guard
+  url: https://github.com/xiangshang2004/anti-slop-guard
+  description: 由使用者明确启用并控制的学术 AI 工作规则，覆盖写作、数据、代码与图件。
+- name: expert-weekly
+  url: https://github.com/xiangshang2004/expert-weekly
+  description: 将科研与工程记录整理为面向专家的简洁中文周报。
+- name: cc-resume
+  url: https://github.com/xiangshang2004/cc-resume
+  description: 基于 HTML/CSS 的中文 A4 简历模板，支持排版与 PDF 导出。
+en:
+- name: anti-slop-guard
+  url: https://github.com/xiangshang2004/anti-slop-guard
+  description: Explicitly activated, user-controlled guardrails for academic AI work.
+- name: expert-weekly
+  url: https://github.com/xiangshang2004/expert-weekly
+  description: A writing skill for concise research updates prepared for expert readers.
+- name: cc-resume
+  url: https://github.com/xiangshang2004/cc-resume
+  description: A single-page A4 Chinese resume template with HTML/CSS styling and PDF export.

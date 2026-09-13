@@ -1,0 +1,52 @@
+{% assign lang = page.lang | default: 'zh' %}
+{% assign c = site.data.i18n[lang] %}
+<!doctype html>
+<html lang="{{ c.html_lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ c.site_title | escape }} | UCAS</title>
+  <meta name="description" content="{{ c.site_title | escape }} — {{ c.role | escape }} · {{ c.affiliation | escape }} · AI for Science">
+  <meta name="theme-color" content="#f7f8fb">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ c.site_title | escape }} | UCAS">
+  <meta property="og:description" content="{{ c.role | escape }} · {{ c.affiliation | escape }} · AI for Science">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="zh-CN" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
+  <link rel="icon" href="{{ '/assets/icons/site-mark.png' | relative_url }}" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}?v=6">
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ c.skip_content }}</a>
+  <nav class="language-switch" aria-label="Language / 语言">
+    <a href="{{ '/' | relative_url }}" lang="zh-CN"{% if lang == 'zh' %} aria-current="page"{% endif %}>中文</a>
+    <a href="{{ '/en/' | relative_url }}" lang="en"{% if lang == 'en' %} aria-current="page"{% endif %}>English</a>
+  </nav>
+  <div class="page">
+    <header class="profile">
+      <div class="profile-summary">
+        <h1>{{ c.site_title }}</h1>
+        <p class="position">{{ c.role }} · <a href="{{ site.affiliation_link }}">{{ c.affiliation }}</a></p>
+        <div class="profile-intro">{{ c.about_body | markdownify }}</div>
+        <div class="social-links">
+          <a href="mailto:{{ site.email }}" aria-label="{{ c.email_label }}: {{ site.email }}">{% include icons/email.svg %}<span>{{ c.email_label }}</span></a>
+          <a href="{{ site.scholar_link }}" aria-label="Google Scholar">{% include icons/scholar.svg %}<span>Scholar</span></a>
+          <a href="{{ site.orcid_link }}" aria-label="ORCID">{% include icons/orcid.svg %}<span>ORCID</span></a>
+          <a href="{{ site.github_link }}" aria-label="GitHub">{% include icons/github.svg %}<span>GitHub</span></a>
+        </div>
+        <a class="profile-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
+      <img class="portrait" src="{{ site.avatar | relative_url }}" alt="{{ c.site_title }}" width="150" height="210">
+    </header>
+    <main id="main" tabindex="-1">
+      {{ content }}
+      <footer>{{ c.footer_prefix }} Jekyll &amp; <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a>.</footer>
+    </main>
+  </div>
+</body>
+</html>

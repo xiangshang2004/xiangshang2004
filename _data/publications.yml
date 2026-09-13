@@ -1,0 +1,23 @@
+main:
+- title: Short-term wind power forecasting with small-sample datasets using an attention-enhanced domain-adversarial neural
+    network
+  authors:
+  - name: Shang Xiang
+    self: true
+  - name: Kai Qu
+  - name: Ying Tian
+  - name: Shuangsi Xue
+  - name: Hui Cao
+  venue: Neurocomputing
+  year: 2025
+  volume: '654'
+  article: '131308'
+  doi: 10.1016/j.neucom.2025.131308
+  url: https://doi.org/10.1016/j.neucom.2025.131308
+  bibtex: /assets/bibtex/xiang2025wind.bib
+  summary:
+    zh: 面向小样本短期风电功率预测，结合注意力增强时序卷积网络与域对抗学习，进行时序特征提取和跨域迁移。
+    en: For small-sample short-term wind power forecasting, combines attention-enhanced temporal convolutional networks with
+      domain-adversarial learning for temporal feature extraction and cross-domain transfer.
+  figure: /assets/papers/neucom-2025-framework.jpg
+  thumbnail: /assets/papers/neucom-2025-framework-thumb.jpg

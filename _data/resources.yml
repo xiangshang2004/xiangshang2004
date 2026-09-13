@@ -1,0 +1,52 @@
+zh:
+- name: DeepXDE
+  icon: science
+  category: 科学机器学习
+  url: https://deepxde.readthedocs.io/en/stable/
+  description: PINN、DeepONet 与微分方程学习的文档及示例。
+- name: PyTorch Tutorials
+  icon: book
+  category: 机器学习
+  url: https://docs.pytorch.org/tutorials/
+  description: 模型训练、自动微分、性能优化与分布式计算教程。
+- name: NVDLA
+  icon: chip
+  category: 人工智能硬件
+  url: https://nvdla.org/
+  description: 深度学习加速器的架构、硬件、软件及验证文档。
+- name: vLLM
+  icon: agent
+  category: 大模型推理
+  url: https://docs.vllm.ai/en/latest/
+  description: 大模型推理、服务部署、性能评测与工具调用文档。
+- name: Model Context Protocol
+  icon: tools
+  category: 智能体与工具
+  url: https://modelcontextprotocol.io/docs/getting-started/intro
+  description: 模型连接外部工具、数据与工作流的协议文档。
+en:
+- name: DeepXDE
+  icon: science
+  category: Scientific Machine Learning
+  url: https://deepxde.readthedocs.io/en/stable/
+  description: Documentation and examples for PINNs, DeepONet and learning differential equations.
+- name: PyTorch Tutorials
+  icon: book
+  category: Machine Learning
+  url: https://docs.pytorch.org/tutorials/
+  description: Tutorials on model training, automatic differentiation, performance optimization and distributed computing.
+- name: NVDLA
+  icon: chip
+  category: AI Hardware
+  url: https://nvdla.org/
+  description: Architecture, hardware, software and verification documentation for the deep learning accelerator.
+- name: vLLM
+  icon: agent
+  category: LLM Inference
+  url: https://docs.vllm.ai/en/latest/
+  description: Documentation for LLM inference, serving, performance benchmarking and tool calling.
+- name: Model Context Protocol
+  icon: tools
+  category: Agents and Tools
+  url: https://modelcontextprotocol.io/docs/getting-started/intro
+  description: Protocol documentation for connecting models to external tools, data and workflows.

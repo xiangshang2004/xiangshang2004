@@ -1,0 +1,43 @@
+zh:
+- school: 中国科学院大学
+  school_en: University of Chinese Academy of Sciences
+  degree: 集成电路工程 · 专业硕士
+  date: 2026 — 至今
+  url: https://www.ucas.ac.cn/
+  logo: /assets/identity/ucas-logo.png
+  logo_width: 64
+  logo_height: 64
+- school: 湖北大学
+  school_en: Hubei University
+  degree: 集成电路设计与集成系统 · 本科
+  date: 2022 — 2026
+  logo: /assets/identity/hubu-logo.png
+  logo_width: 64
+  logo_height: 64
+- school: 西安交通大学
+  school_en: Xi’an Jiaotong University
+  degree: 微电子科学与工程 · 交流学习
+  date: 2024 — 2025
+  logo: /assets/identity/xjtu-logo.png
+  logo_width: 64
+  logo_height: 64
+en:
+- school: University of Chinese Academy of Sciences
+  degree: Integrated Circuit Engineering · Professional master's program
+  date: 2026 — Present
+  url: https://www.ucas.ac.cn/
+  logo: /assets/identity/ucas-logo.png
+  logo_width: 64
+  logo_height: 64
+- school: Hubei University
+  degree: Integrated Circuit Design and Integrated Systems · Bachelor's degree
+  date: 2022 — 2026
+  logo: /assets/identity/hubu-logo.png
+  logo_width: 64
+  logo_height: 64
+- school: Xi’an Jiaotong University
+  degree: Microelectronics Science and Engineering · Academic exchange
+  date: 2024 — 2025
+  logo: /assets/identity/xjtu-logo.png
+  logo_width: 64
+  logo_height: 64

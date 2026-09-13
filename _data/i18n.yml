@@ -1,0 +1,41 @@
+zh:
+  site_title: 向上
+  html_lang: zh-CN
+  role: 硕士研究生
+  affiliation: 中国科学院大学
+  skip_content: 跳到正文
+  updated: 更新于
+  footer_prefix: 使用
+  nav:
+    publications: 发表论文
+    experience: 实习经历
+    education: 教育经历
+    resources: 学习资源
+    projects: 开源工具
+  about_body: 研究兴趣广泛涵盖 **AI for Science**，关注人工智能在科学研究与芯片工程中的应用。
+  paper_label: 论文全文
+  figure_caption: 图 2 · TCN-AttDANN 模型架构
+  figure_alt: 论文图 2：源域与目标域输入、注意力增强 TCN 特征提取器、梯度反转层、域分类器及双域回归器。
+  logo_label: 标识
+  email_label: 电子邮件
+en:
+  site_title: Shang Xiang
+  html_lang: en
+  role: Master’s Student
+  affiliation: University of Chinese Academy of Sciences
+  skip_content: Skip to content
+  updated: Last updated
+  footer_prefix: Built with
+  nav:
+    publications: Publications
+    experience: Experience
+    education: Education
+    resources: Resources
+    projects: Open Source
+  about_body: My research interests broadly span **AI for Science**, with a focus on applications of AI in scientific research and chip engineering.
+  paper_label: Paper
+  figure_caption: Fig. 2 · TCN-AttDANN model architecture
+  figure_alt: 'Figure 2 from the paper: source and target inputs, an attention-enhanced TCN feature extractor, a gradient
+    reversal layer, a domain classifier and two domain-specific regressors.'
+  logo_label: logo
+  email_label: Email

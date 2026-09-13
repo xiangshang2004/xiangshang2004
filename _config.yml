@@ -1,0 +1,46 @@
+title: "向上"
+position: "硕士研究生"
+affiliation: "中国科学院大学"
+affiliation_link: "https://www.ucas.ac.cn/"
+email: "xiangshang26@mails.ucas.ac.cn"
+lang: "zh-CN"
+timezone: "Asia/Shanghai"
+description: "向上的个人主页：中国科学院大学硕士研究生，研究兴趣为 AI for Science。"
+keywords: "向上, 中国科学院大学, UCAS, AI for Science"
+url: "https://xiangshang2004.github.io"
+baseurl: ""
+canonical: "https://xiangshang2004.github.io/"
+github_link: "https://github.com/xiangshang2004"
+orcid_link: "https://orcid.org/0009-0005-7045-8505"
+scholar_link: "https://scholar.google.com/citations?user=cIRPqicAAAAJ"
+avatar: "/assets/photos/xiangshang.jpeg"
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - README.en.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - README_de.md
+  - LICENSE
+  - AGENTS.md
+  - "**/AGENTS.md"
+  - .agents
+  - .omx
+  - openspec
+  - docs
+  - deployment
+  - .private
+  - html_source_file
+  - minimal-light.gemspec
+  - assets/files
+  - assets/img
+  - assets/js
+  - assets/css/font.css
+  - assets/css/font_sans_serif.css
+  - assets/css/style.scss
+  - assets/css/style-no-dark-mode.scss
+  - assets/css/publications.css
+  - assets/css/publications-no-dark-mode.css

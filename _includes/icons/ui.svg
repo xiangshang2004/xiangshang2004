@@ -1,0 +1,12 @@
+<svg class="ui-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+{% case include.icon %}
+{% when 'science' %}<path d="M9 3h6M10 3v6L4.7 18a2 2 0 0 0 1.7 3h11.2a2 2 0 0 0 1.7-3L14 9V3M8 14h8"/><path d="M10 17h.01M14 18h.01"/>
+{% when 'agent' %}<rect x="4" y="7" width="16" height="14" rx="3"/><path d="M12 3v4M2 12v5M22 12v5M8 12v2M16 12v2M9 17h6"/>
+{% when 'chip' %}<rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/><rect x="10" y="10" width="4" height="4" rx=".5"/>
+{% when 'wave' %}<path d="M2 12h3l3-8 5 16 3-8h6"/>
+{% when 'book' %}<path d="M12 5v16M12 5C8 2 5 3 2 3v16c4 0 7 0 10 2 3-2 6-2 10-2V3c-3 0-6-1-10 2Z"/>
+{% when 'quote' %}<path d="M10 5H4v7h5c0 3-1 5-4 6M21 5h-6v7h5c0 3-1 5-4 6"/>
+{% when 'tools' %}<path d="M8 8 4 12l4 4M16 8l4 4-4 4M14 4l-4 16"/>
+{% when 'external' %}<path d="M14 3h7v7M21 3 10 14M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/>
+{% endcase %}
+</svg>
