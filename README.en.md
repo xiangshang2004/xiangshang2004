@@ -20,4 +20,4 @@ My research interests broadly span **AI for Science**, with a focus on applicati
 
 ## Recommended
 
-Explore [**Shengyan AI**](https://sycyai.cn/) — AI-assisted tools for paper revision and contextual English learning.
+Explore [**Shengyan AI**](https://sycyai.cn/) — a small website I built.
