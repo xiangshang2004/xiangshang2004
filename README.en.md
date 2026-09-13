@@ -17,7 +17,3 @@ My research interests broadly span **AI for Science**, with a focus on applicati
 - Scientific machine learning
 - Engineering agents
 - Applications in chip engineering
-
-## GitHub Activity
-
-[![GitHub contribution activity for xiangshang2004](https://github-readme-activity-graph.vercel.app/graph?username=xiangshang2004&theme=github-compact&hide_border=true)](https://github.com/xiangshang2004)
